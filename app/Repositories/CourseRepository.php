@@ -19,4 +19,10 @@ class CourseRepository
     {
         return $this->entity->get();
     }
+
+        // Adicionando cursos
+    public function createNewCourse(array $data)
+    {
+        return $this->entity->create($data);
+    }
 }
