@@ -17,6 +17,7 @@ class CourseObserver
     public function creating(Course $course)
     {
         $course->uuid = (String) Str::uuid();
+
     }
 
 }

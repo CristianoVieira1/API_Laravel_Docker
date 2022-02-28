@@ -24,8 +24,4 @@ class CourseService
         return $this->repository->createNewCourse($data);
     }
 
-
-
-
-
 }
